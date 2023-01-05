@@ -1,0 +1,45 @@
+.container {
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: auto;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.blog {
+  background-color: rgb(162, 162, 195);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+h2 {
+  padding: 15px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 21px;
+  line-height: 25px;
+  padding: 10px;
+}
+
+.btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 19px;
+  margin: 15px 0px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
